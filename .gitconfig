@@ -1,0 +1,41 @@
+[rerere]
+	enabled = false
+
+[user]
+	email = ayin@xcom-labs.com
+	name = Alex Yin
+
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+
+[color]
+	ui = auto
+
+[core]
+	editor = vim
+	whitespace = cr-at-eol
+
+[include]
+	path = /home/ayin/.gitalias
+
+[credential]
+    helper = "!f() { /home/ayin/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/node /tmp/vscode-remote-containers-f58ae6d1-b6c3-4b05-a32d-e4f0b2bc573b.js git-credential-helper $*; }; f"
+
+[core]
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true    # use n and N to move between diff sections
+	light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+    side-by-side = true
+    plus-style = syntax "#004D00"
+
+[merge]
+	conflictstyle = diff3
+
