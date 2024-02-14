@@ -1,7 +1,6 @@
 ### Hi there 👋
 Most of my coding has been closed source recently :lock: \
 But hopefully there's some clues here as to what I've worked on! \
-Thanks for your time,\
 Alex
 <!--
 **alexyin1/alexyin1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
