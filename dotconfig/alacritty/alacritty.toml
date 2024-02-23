@@ -1,9 +1,9 @@
 [window]
 	option_as_alt = "OnlyLeft"
 
-[keyboard]
-bindings = [
-  { key = "Right", mods = "Alt", chars = "\u001BF" },
-  { key = "Left",  mods = "Alt", chars = "\u001BB" },
-]
+# [keyboard]
+# bindings = [
+#   { key = "Right", mods = "Alt", chars = "\u001BF" },
+#   { key = "Left",  mods = "Alt", chars = "\u001BB" },
+# ]
 
