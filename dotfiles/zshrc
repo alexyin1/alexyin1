@@ -1,3 +1,12 @@
+# start rhel 8.9 zshrc
+# keep background processes at full speed
+setopt NOBGNICE
+# never ever beep ever
+setopt NO_BEEP
+# disable mail checking
+MAILCHECK=0
+# end rhel 8.9 zshrc
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
