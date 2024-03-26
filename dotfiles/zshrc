@@ -44,25 +44,3 @@ export EDITOR="vim"
 export VISUAL="vim"
 alias vim="vim"
 
-# nps stuff
-export NPS_ROOT=$HOME/nps
-export NZ_USER=admin
-export NZ_PASSWORD=password
-export PATH=$PATH:$NPS_ROOT/main/debug/bin:$NPS_ROOT/main/debug/bin/adm:$NPS_ROOT/main
-export CCACHE_DIR=$NPS_ROOT/ccache
-export AOS_CCACHE=ccache
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/nz/miniconda3/bin/conda' 'shell.zsh' 'hook' 2>/dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/nz/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/nz/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/nz/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
